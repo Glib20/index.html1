@@ -1,0 +1,49 @@
+:root {
+  --color-gray: #757575;
+  --color-dgray: #212121;
+  --color-lgray: #ececec;
+  --color-black: #000;
+  --color-blue: #2196f3;
+  --color-white: #fff;
+  --color-fon: #2f302f;
+}
+body {
+    font-family: 'Roboto' ;
+}
+.logo {
+    font-family: "Raleway" ; 
+    font-size: 26px;
+    color : var(--color-black);
+}
+.logo span {
+    color : var(--color-blue);
+}
+   .hero {
+  background-color: var(--color-fon);
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 44px;
+}
+footer {
+  background-color: var(--color-fon);
+  color: var(--color-white);
+}
+
+footer .logo {
+  color: var(--color-white);
+}
+
+.our-team img {
+  height: 260px;
+  width: 270px;
+}
+li {
+  list-style-type: none;
+}
+
+.about-us p,
+.our-team p {
+  font-weight: normal;
+  color: var(--color-gray);
+} 
+    
